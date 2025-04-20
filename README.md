@@ -1,6 +1,6 @@
-<h2 align="center">
+<h3 align="center">
     SemiDFL: A Semi-Supervised Paradigm for Decentralized Federated Learning
-</h2>
+</h3>
 <h5 align="center">
     Xinyang Liu<sup>1, 2, §</sup>, Pengchao Han<sup>3, §</sup>, Xuan Li<sup>4</sup>, Bo Liu<sup>1, †</sup> <br>
     <sup>1</sup>AIRS, <sup>2</sup>PolyU, <sup>3</sup>GDUT, <sup>4</sup>SEU <br>
@@ -13,8 +13,6 @@
 [![AAAI](https://img.shields.io/badge/AAAI-2025-blue.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/34090)
 
 </h4>
-
----
 <br/>
 
 ### 📜 Introduction
@@ -85,27 +83,12 @@ More detailed parameters could be found and modified in the "GlobalParameters.py
 
 The visualizations below demonstrate the performance of different methods on Fashion-MNIST and CIFAR-10 datasets with
 different label ratio and non-IID degree settings. SemiDFL could achieve better performance consistently.
-<div style="display: flex; justify-content: space-between;">
-  <figure style="text-align: center; width: 50%; ">
-    <img src="assets/noniid-fashion.png" width="100%" alt="Image 1">
-    <figcaption>(a) Fashion-MNIST (r=0.5%)</figcaption>
-  </figure>
-  <figure style="text-align: center; width: 50%; ">
-    <img src="assets/noniid-cifar.png" width="100%" alt="Image 2">
-    <figcaption>(b) CIFAR-10 (r=5%)</figcaption>
-  </figure>
-</div>
 
-<div style="display: flex; justify-content: space-between;">
-  <figure style="text-align: center; width: 50%; ">
-    <img src="assets/ratio-fashion.png" width="100%" alt="Image 3">
-    <figcaption>(c) Fashion-MNIST (α=100)</figcaption>
-  </figure>
-  <figure style="text-align: center; width: 50%;">
-    <img src="assets/ratio-cifar.png" width="100%" alt="Image 4">
-    <figcaption>(d) CIFAR-10 (α=100)</figcaption>
-  </figure>
-</div>
+|        *(a) Fashion-MNIST (r=0.5%)*         |        *(b) CIFAR-10 (r=5%)*         |
+|:-------------------------------------------:|:------------------------------------:|
+| ![Fashion-MNIST](assets/noniid-fashion.png) | ![CIFAR-10](assets/noniid-cifar.png) |
+|       ***(c) Fashion-MNIST (α=100)***       |      ***(d) CIFAR-10 (α=100)***      |
+| ![Fashion-MNIST](assets/ratio-fashion.png)  | ![CIFAR-10](assets/ratio-cifar.png)  
 
 ### 📖 Citation
 
