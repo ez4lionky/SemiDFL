@@ -13,7 +13,8 @@
 [![AAAI](https://img.shields.io/badge/AAAI-2025-blue.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/34090)
 
 </h4>
-<br/>
+
+---
 
 ### 📜 Introduction
 
