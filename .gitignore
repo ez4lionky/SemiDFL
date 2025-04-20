@@ -1,0 +1,12 @@
+*.csv
+*.xml
+*.pyc
+*.iml
+.idea
+__pycache__/
+dataset*
+AlternativeDatasets/
+backup_datasets/
+logs/
+.DS_Store
+./*/.DS_Store
